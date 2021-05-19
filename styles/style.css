@@ -139,3 +139,34 @@ nav {
 
 /* Footer Section */
 
+footer {
+  background-color: #EEE;
+  /* border: 2px 0 0 0 solid #555; */
+  position: fixed;
+  bottom: 0;
+  display: flex;
+
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+}
+
+#footer-left {
+  padding-left: 2rem;
+  width: 50vw;
+  justify-content: flex-start;
+
+}
+
+#footer-right {
+  padding-right: 1rem;
+  width: 50vw;
+  justify-content: flex-end;
+}
+
+.footer-item {
+  padding: 1rem;
+  color:#666;
+}
