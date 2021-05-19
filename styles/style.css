@@ -1,9 +1,18 @@
 * {
   font-family: sans-serif;
 }
+
 html {
   font-family: sans-serif;
   font-size: 14px;
+}
+
+body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 a {
@@ -14,6 +23,8 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+/* Nav section */
 
 nav {
   display: flex;
@@ -64,14 +75,7 @@ nav {
   box-shadow: 0 0 0.1rem #999;
 }
 
-
-body {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+/* Search Block Section */
 
 #search-block {
     display: flex;
@@ -128,7 +132,10 @@ body {
     border-radius: 0.4rem;
 }
 
-button:hover {
+.search-button:hover {
     border: 1px solid #BBB;
     color: #222;
 }
+
+/* Footer Section */
+
